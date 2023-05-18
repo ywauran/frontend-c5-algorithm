@@ -137,16 +137,16 @@ const App = () => {
                                     No
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q1.1
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q1.2
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q1.3
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q1.4
                                   </th>
                                 </tr>
                               </thead>
@@ -203,22 +203,22 @@ const App = () => {
                                     No
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q2.1
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q2.2
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q2.3
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q2.4
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q2.5
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q2.6
                                   </th>
                                 </tr>
                               </thead>
@@ -279,28 +279,28 @@ const App = () => {
                                     No
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q3.1
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q3.2
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q3.3
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q3.4
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q3.6
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q3.7
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q3.8
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q3.9
                                   </th>
                                 </tr>
                               </thead>
@@ -367,19 +367,19 @@ const App = () => {
                                     No
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q4.1
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q4.2
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q4.3
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q4.4
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q4.5
                                   </th>
                                 </tr>
                               </thead>
@@ -439,10 +439,10 @@ const App = () => {
                                     No
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q5.1
                                   </th>
                                   <th scope="col" className="px-6 py-4">
-                                    #
+                                    Q5.2
                                   </th>
                                 </tr>
                               </thead>
