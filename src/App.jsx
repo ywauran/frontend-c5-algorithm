@@ -5,9 +5,11 @@ import ReactHtmlTableToExcel from "react-html-table-to-excel";
 import Header from "./componets/Header";
 import { MdOutlineDataset, MdCalculate } from "react-icons/md";
 import { VscOutput } from "react-icons/vsc";
+import { RxDashboard } from "react-icons/rx";
 import QuestionnaireDataPage from "./pages/QuestionnaireDataPage";
 import CalculatePage from "./pages/CalculatePage";
 import ResultPage from "./pages/ResultPage";
+import HomePage from "./pages/HomePage";
 
 const App = () => {
   const [page, setPage] = useState(0);
@@ -75,12 +77,12 @@ const App = () => {
     }
   };
   const calculate = () => {
-    setPage(1);
+    setPage(2);
     sendData();
   };
 
   const showResult = () => {
-    setPage(2);
+    setPage(3);
   };
 
   useEffect(() => {
@@ -88,6 +90,16 @@ const App = () => {
   });
   switch (page) {
     case 0:
+      currentPage = (
+        <>
+          <Header title="Halaman Beranda" />
+          <div className="p-4">
+            <HomePage />
+          </div>
+        </>
+      );
+      break;
+    case 1:
       currentPage = (
         <>
           <Header title="Halaman Data Kuisioner" />
@@ -483,7 +495,7 @@ const App = () => {
         </>
       );
       break;
-    case 1:
+    case 2:
       currentPage = (
         <>
           <Header title="Halaman Perhitungan" />
@@ -554,7 +566,7 @@ const App = () => {
         </>
       );
       break;
-    case 2:
+    case 3:
       currentPage = (
         <>
           <Header title="Halaman Hasil" />
@@ -653,6 +665,19 @@ const App = () => {
                     : "text-[#464255]"
                 }`}
               >
+                <RxDashboard />
+                <p>Beranda</p>{" "}
+              </span>
+            </li>
+            <li className="">
+              <span
+                onClick={() => setPage(1)}
+                className={`flex items-center space-x-3 p-2 cursor-pointer ${
+                  page === 1
+                    ? "bg-[#D9F3EA] rounded-md text-[#0c835b] font-semibold"
+                    : "text-[#464255]"
+                }`}
+              >
                 <MdOutlineDataset />
                 <p>Data Kuisioner</p>{" "}
               </span>
@@ -660,7 +685,7 @@ const App = () => {
             <li>
               <span
                 className={`flex items-center space-x-3 p-2 ${
-                  page === 1
+                  page === 2
                     ? "bg-[#D9F3EA] rounded-md text-[#0c835b] font-semibold"
                     : "text-[#464255]"
                 }`}
@@ -672,7 +697,7 @@ const App = () => {
             <li>
               <span
                 className={`flex items-center space-x-3 p-2 ${
-                  page === 2
+                  page === 3
                     ? "bg-[#D9F3EA] rounded-md text-[#0c835b] font-semibold"
                     : "text-[#464255]"
                 }`}
